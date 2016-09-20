@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
+set -e
+set -x
+
 # Build the ODL Brew docker image
 # This is required because mock requires the ushare system call, but Docker
 # refuses to add support for privileged builds. The standard work-around is
 # to build as much as you can in a Dockerfile, then use `docker run`s with
 # the required privileges, then commit the result.
 
-docker build . -t brew
+docker build -t brew .
 
 # TODO: Extract these to a build and commit function
 
