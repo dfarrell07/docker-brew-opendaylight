@@ -1,4 +1,5 @@
 # Dockerfile for Brew, Red Hat's highly customized Koji instance
+# This will only work inside the Red Hat network, sorry.
 FROM centos:7
 MAINTAINER Daniel Farrell <dfarrell@redhat.com>
 
