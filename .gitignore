@@ -1,1 +1,5 @@
+# Vim
 .*.sw?
+
+# Temporary Docker ID files we generate in build_image.sh
+*.cid
