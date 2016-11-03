@@ -63,7 +63,7 @@
         <pluginRepository>
           <id>opendaylight-snapshot</id>
           <name>opendaylight-snapshot</name>
-          <url>https://nexus.opendaylight.org/content/repositories/opendaylight.snapshot/</url>
+          <url>http://download.eng.bos.redhat.com/brewroot/repos/rhos-10.0-odl-rhel-7-build/latest/maven/</url>
           <releases>
             <enabled>false</enabled>
           </releases>
